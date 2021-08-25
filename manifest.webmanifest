@@ -1,15 +1,15 @@
 {
   "background_color": "#c9211e",
-  "description": "My Switch Meter app",
+  "description": "Make Payments And ",
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/favicon.png",
+      "src": "icon/faviconLite.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "name": "Switch Mobile",
+  "name": "My Switch App",
   "short_name": "Switch",
   "start_url": "/PWA/index.html"
 }

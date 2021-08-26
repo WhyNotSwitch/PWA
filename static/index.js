@@ -9,8 +9,8 @@ if ('serviceWorker' in navigator) {
 // Code to handle install prompt on desktop
 
 let deferredPrompt;
-const installBtn = document.querySelector('.install-button');
-installBtn.style.display = 'none';
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -18,11 +18,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Update UI to notify the user they can add to home screen
-  installBtn.style.display = 'block';
+  addBtn.style.display = 'block';
 
-  installBtn.addEventListener('click', () => {
+  addBtn.addEventListener('click', () => {
     // hide our user interface that shows our A2HS button
-    installBtn.style.display = 'none';
+    addBtn.style.display = 'none';
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt

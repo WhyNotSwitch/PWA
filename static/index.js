@@ -2,7 +2,7 @@
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/PWA/sw.js')
+    .register('/PWA/static/sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 

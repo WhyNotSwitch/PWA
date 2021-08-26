@@ -28,29 +28,7 @@ h3, p {
     align-items: center;
 }
 
-#first_Button{
-    background: white;
-    color: black;
-    border: 1px solid red;
-    height: 3rem;
-    margin: 3rem;
-    width: 9rem;
-    box-shadow: 1px 10px 10px rgb(63, 62, 62);
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
-}
-
-#first_Button:active {
-    transform: scale(0.9);
-}
-#first_Button:hover{
-color:white;
-background-color: red;
-border: none;
-}
-
-#second_Button{
+.install-button{
     background:red;
     color: white;
     height: 3rem;
@@ -63,6 +41,6 @@ border: none;
     transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
 }
 
-#second_Button:active {
+.install-button:active {
     transform: scale(0.9);
 }

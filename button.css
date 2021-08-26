@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/christwin/image/upload/v1629984109/Switch%28media%29/Light_wagexc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3, p {
+    color: white;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 18rem;
+    align-items: center;
+}
+
+#first_Button{
+    background: white;
+    color: black;
+    border: 1px solid red;
+    height: 3rem;
+    margin: 3rem;
+    width: 9rem;
+    box-shadow: 1px 10px 10px rgb(63, 62, 62);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+#first_Button:active {
+    transform: scale(0.9);
+}
+#first_Button:hover{
+color:white;
+background-color: red;
+border: none;
+}
+
+#second_Button{
+    background:red;
+    color: white;
+    height: 3rem;
+    margin: 3rem;
+    width: 9rem;
+    border: 1px solid red;
+    box-shadow: 1px 10px 10px rgb(63, 62, 62);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+#second_Button:active {
+    transform: scale(0.9);
+}
